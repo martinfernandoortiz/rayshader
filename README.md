@@ -32,5 +32,19 @@ para ejecutar rstudio en un navegador: *localhost:* 8787 *admin:* root
 ![Imagen](/imagenes/imagen2.png "Foco").
 ![Imagen](/imagenes/imagen1.png "Foco").
 
+![Imagen](/imagenes/imagen4.png "Foco").
+```R
+elmat %>%
+  sphere_shade(texture = "bw") %>%
+ # add_water(detect_water(elmat), color = "desert") %>%
+  add_shadow(ray_shade(elmat, zscale = 3), 0.5) %>%
+  add_shadow(ambient_shade(elmat), 0) %>%
+  plot_3d(elmat, zscale = 5, fov = 30, theta = -225, phi = 25, windowsize = c(1000, 800), zoom = 0.8)
+Sys.sleep(0.2)
+render_depth(focallength = 800, clear = TRUE)
+render_snapshot(clear = TRUE)
+```
+
+
 
 

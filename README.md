@@ -28,9 +28,9 @@ docker container rm rstudio
 ##
 para ejecutar rstudio en un navegador: *localhost:* 8787 *admin:* root
 
-[imagen 1](/imagenes/imagen1.png)
-[imagen 2](/imagenes/imagen2.png)
-[imagen 3](/imagenes/imagen3.png)
+[imagen 1](https://github.com/martinfernandoortiz/rayshader/blob/main/imagenes/imagen1.png)
+[imagen 2](https://github.com/martinfernandoortiz/rayshader/blob/main/imagenes/imagen2.png)
+[imagen 3](https://github.com/martinfernandoortiz/rayshader/blob/main/imagenes/imagen3.png)
 
 
 
